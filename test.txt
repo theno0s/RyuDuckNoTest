@@ -2,3 +2,6 @@ test
 
 TEST BY JIEUN RYU
 
+- 김노영
+2018-12-26 node.js/ vue.js 일정추가.
+
