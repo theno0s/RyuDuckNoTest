@@ -15,6 +15,8 @@ test
 
  5. 자신이 기존에 다른 곳에서 작업하던 브랜치가 있으면 해당 브랜치에서 create branch를 눌러 동일한 이름으로 브랜치를 생성하거나, 
  merge한 기록이 있으면 해당 브랜치에서 새브랜치를 생성하여 계속 작업한다.
+ 
+ 6. 프로젝트 작업은 'widow->show view->others->project explorer'를 선택하여 'import -> git -> localrepository'를 선택하고 작업하면 된다.
 
 - 간단한 깃 작업 방법(쉽습니다.)
  1. 깃 작업을 시작할때는 다른사람의 푸쉬 현황이나 머지현황을 보기 위해 '프로젝트 우클릭-> team -> fetch from upstream' 을 클릭하여(git repository 탭에서는 바로 fetch from upstream 실행)
