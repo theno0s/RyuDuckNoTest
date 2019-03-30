@@ -1,0 +1,17 @@
+2019.03.27 SecureCoding 교육
+
+s/w 개발보안 방법론
+ 	1. 입력값 검증 > 2. 인증 > 3. 인가 > 4. 중요정보 처리 > 5. 암호화 정책 > 6. 오류처리 > 7. logging
+
+* encoding
+--1. html encoding
+ 
+  	public static String htmlEndcoder(String data) {
+		return data.replaceAll("&", "&amp;")
+							.replaceAll("<", "&lt;")
+							.replaceAll(">", "&gt;");
+	}
+	
+	이런 메소드 util에 정의해서 입력값은 모두 해당 유틸 타게 만들어서 입력받음.
+	이러한 처리가 없을경우, 입력값 입력하는 창에 스크립트문 입력하면 그 페이지에서 그대로 실행됨 > 보안에 취약
+	
